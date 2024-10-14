@@ -1,4 +1,3 @@
-```java
 import java.util.Map;
 
 public class UserAuthenticator {
@@ -17,4 +16,3 @@ public class UserAuthenticator {
         // Main method where the program execution starts
     }
 }
-```

@@ -1,4 +1,3 @@
-// File: PasswordHasher.java
 import java.util.Map;
 import java.util.HashMap;
 
