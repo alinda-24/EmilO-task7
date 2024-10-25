@@ -11,6 +11,7 @@ I googled and found this website: *https://docs.oracle.com/en/java/javase/11/doc
 ## Exercise 2:
 ### File I/O Concepts
 `FileReader` makes it possible to read data from a file and `BufferedReader` makes it more effeciant by reading more data at once.
+
 **Example:**
 ```java
 import java.io.BufferedReader;
