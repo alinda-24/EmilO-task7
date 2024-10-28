@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class UserFileReader {
 
-    public Map<String, String> readUsers(String filename) {
+    public static Map<String, String> readUsers(String filename) {
         HashMap<String, String> userMap = new HashMap<String, String>();
         
         try (BufferedReader reader = new BufferedReader(new FileReader(filename))){
@@ -22,6 +22,7 @@ public class UserFileReader {
         } catch (IOException e) {
             System.err.println("Error!");
             System.err.println("Couldn't find file 'user_data.txt");
+            System.err.println(e.getMessage());
         }
 
         return userMap;
