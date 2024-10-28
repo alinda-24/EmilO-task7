@@ -34,5 +34,7 @@ public class UserAuthenticator {
 
         System.out.println("Test: Username: 'john_doe' Password: 'password123': " + authenticator.validateLogin("john_doe", "password123"));
         System.out.println("Test: Username: 'john_doe' Password: '123password': " + authenticator.validateLogin("john_doe", "123password"));
+
+        System.out.println("Uniue users: " + authenticator.uniqueUserCount());
     }
 }
